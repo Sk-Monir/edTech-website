@@ -50,6 +50,9 @@ p{
     .course_img{
         width:100%
     }
+    .reg_ttl{
+        text-align: center;
+    }
 }
 @media (min-width:767px) and (max-width:991px){
     #banner_sec .banner_ttl{
@@ -60,6 +63,9 @@ p{
     }
      p{
         font-size:12px ;
+    }
+    .reg_ttl{
+        text-align: center;
     }
 }
 /* responsive css End */
