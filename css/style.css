@@ -1,3 +1,39 @@
+/* google font link start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* google font link End */
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+h3{
+    font-size:20px ;
+    font-weight: 600;
+    color:#4A4A4A;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#777777;
+}
+/* common css End */
+.course_img{
+    width:30%
+}
+/* responsive css start */
 @media (max-width:767px){
     #banner_sec .banner_ttl{
         font-size:20px ;
@@ -6,7 +42,10 @@
         font-size: 17px;
     }
      p{
-        font-size:10px ;
+        font-size:8px ;
+    }
+    .course_img{
+        width:100%
     }
 }
 @media (min-width:767px) and (max-width:991px){
@@ -17,6 +56,7 @@
         font-size: 25px;
     }
      p{
-        font-size:15px ;
+        font-size:12px ;
     }
 }
+/* responsive css End */
