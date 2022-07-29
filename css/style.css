@@ -53,6 +53,9 @@ p{
     .reg_ttl{
         text-align: center;
     }
+    .ssc_ttl{
+        width: 100%;
+    }
 }
 @media (min-width:767px) and (max-width:991px){
     #banner_sec .banner_ttl{
