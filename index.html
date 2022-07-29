@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- header section start  -->
-    <header id="header_sec">
+    <header id="header_sec" class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container py-4">
               <a class="navbar-brand" href="#">edTech</a>
@@ -25,18 +25,18 @@
                     <button class="btn btn-outline-primary" type="submit">Register</button>
                 </form>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <p class="navbar-toggler-icon"></p>
               </button>
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 px-2">
                     <li class="nav-item">
-                        <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active px-3" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3" href="#">Courses</a>
+                        <a class="nav-link px-3" href="#course_sec">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3" href="#">Deals</a>
+                        <a class="nav-link px-3" href="#about_sec">Deals</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-3" href="#">Success</a>
@@ -68,7 +68,7 @@
                     <div class="position-absolute text-center top-50 start-50 translate-middle text-white">
                         <h1 class="banner_ttl">Get Started Digital Learning</h1>
                         <p class="text-white">It is a long established fact that a reader will be distracted by the readable ontent of a page when looking at its layout.</p>
-                        <a class="btn btn-outline-primary "href="#">Get Started</a>
+                        <a class="btn btn-outline-primary px-4 py-2" href="#">Get Started</a>
                     </div>
                   </div>
                   <div class="carousel-item ">
@@ -78,7 +78,7 @@
                     <div class="position-absolute text-center top-50 start-50 translate-middle text-white">
                         <h1 class="banner_ttl">Get Started Digital Learning</h1>
                         <p class="text-white">It is a long established fact that a reader will be distracted by the readable ontent of a page when looking at its layout.</p>
-                        <a class="btn btn-outline-primary "href="#">Get Started</a>
+                        <a class="btn btn-outline-primary px-4 py-2" href="#">Get Started</a>
                     </div>
                   </div>
                   <div class="carousel-item ">
@@ -88,24 +88,24 @@
                     <div class="position-absolute text-center top-50 start-50 translate-middle text-white">
                         <h1 class="banner_ttl">Get Started Digital Learning</h1>
                         <p class="text-white">It is a long established fact that a reader will be distracted by the readable ontent of a page when looking at its layout.</p>
-                        <a class="btn btn-outline-primary "href="#">Get Started</a>
+                        <a class="btn btn-outline-primary px-4 py-2" href="#">Get Started</a>
                     </div>
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                  <p class="carousel-control-prev-icon" aria-hidden="true"></p>
+                  <p class="visually-hidden">Previous</p>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                  <p class="carousel-control-next-icon" aria-hidden="true"></p>
+                  <p class="visually-hidden">Next</p>
                 </button>
               </div>
         </div>
     </section>
     <!-- banner section End -->
     <!-- courses Section start -->
-    <section id="course_sec py-5">
+    <section id="course_sec" class="mb-5">
       <div class="container">
         <div class="sec_ttl text-center pb-3">
           <h2 class=" px-5 ">Discover Our Popular Courses</h2>
@@ -180,12 +180,35 @@
             </div>
           </div>
         </div>
-        <div class="d-flex align-items-center justify-content-center">
-        <a class="btn btn-outline-primary  my-3" href="#">View All</a>
+        <div class="d-flex align-items-center justify-content-center my-3">
+        <a class="btn btn-outline-primary px-4 py-2" href="#">View All</a>
         </div>
       </div>
     </section>
     <!-- courses Section End -->
+    <!-- About section start -->
+    <section id="about_sec"class="my-5">
+      <div class="container px-0">
+        <div class="row row-cols-1 row-cols-md-2">
+          <img class="img-fluid " src="images/working.png" alt="working_img">
+          <div class="about_content d-flex justify-content-center flex-column  p-5">
+            <h2>Explore The elearning Institute</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour, or
+              randomised words which don't look even slightly believable. If you are going
+              to use a passage of Lorem Ipsum, you need to be sure.</p>
+            <div class="d-flex justify-content-between pb-4">
+              <div><h2>3.2K+</h2><p>Online Course</p></div>
+              <div><h2>600+</h2><p>Expert member</p></div>
+              <div><h2>1k+</h2><p>Rating & Review</p></div>
+            </div>
+            <div><div class="btn btn-outline-primary">Read More</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About section start -->
     <!-- bootstrap js start -->
     <script src="js/bootstrap.min.js"></script>
     <!-- bootstrap js End -->

@@ -31,7 +31,10 @@ p{
 }
 /* common css End */
 .course_img{
-    width:30%
+    width:28%
+}
+#about_sec .container{
+    background-color:#ECECEA ;
 }
 /* responsive css start */
 @media (max-width:767px){
