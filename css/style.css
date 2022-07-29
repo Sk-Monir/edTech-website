@@ -36,6 +36,9 @@ p{
 #about_sec .container{
     background-color:#ECECEA ;
 }
+.accordion{
+    width: 75%;
+}
 /* responsive css start */
 @media (max-width:767px){
     #banner_sec .banner_ttl{
@@ -53,7 +56,7 @@ p{
     .reg_ttl{
         text-align: center;
     }
-    .ssc_ttl{
+    .accordion{
         width: 100%;
     }
 }
@@ -69,6 +72,9 @@ p{
     }
     .reg_ttl{
         text-align: center;
+    }
+    .accordion{
+        width: 100%;
     }
 }
 /* responsive css End */
